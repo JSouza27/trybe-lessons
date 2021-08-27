@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositÃ³rio contÃ©m todas as atividades de aprendizagem desenvolvidas por Jonathan Souza (LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositÃ³rio contÃ©m todas as atividades de aprendizagem desenvolvidas por Jonathan Souza (https://www.linkedin.com/in/jsouzap/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe Ã© uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa sÃ³ paga quando conseguir um bom trabalho."_
 
