@@ -2,6 +2,7 @@
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por Jonathan Souza (https://www.linkedin.com/in/jsouzap/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
+
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias Ágeis e habilidades comportamentais.
@@ -185,10 +186,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 26: Intro - NodeJS
 
-- [ ] 26-1: _NodeJS - IntroduÃ§Ã£o_
-- [ ] 26-2: _NodeJS - Fluxo AssÃ­ncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [x] 26-1: NodeJS - Introdução
+- [x] 26-2: Node.js - Fluxo Assíncrono
+- [x] 26-3: NodeJS - Testes com NodeJS
+- [x] 26-4: NodeJS - Express: HTTP com Node.js
+- [ ] 26-4: NodeJS - Express: Middlewares
+- [ ] 26-5: Projeto - Talker Manager
 
 ##### Bloco 27: NodeJS
 
