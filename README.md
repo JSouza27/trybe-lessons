@@ -191,7 +191,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-3: NodeJS - Testes com NodeJS
 - [x] 26-4: NodeJS - Express: HTTP com Node.js
 - [x] 26-4: NodeJS - Express: Middlewares
-- [x] 26-5: Projeto - Talker Manager
+- [x] 26-5: [Projeto - Talker Manager](https://github.com/tryber/sd-010-b-project-talker-manager/pull/81)
 
 ##### Bloco 27: NodeJS
 
