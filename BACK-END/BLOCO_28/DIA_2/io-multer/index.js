@@ -13,12 +13,13 @@ const app = express();
 
 const storage = multer.diskStorage({
   destination: (req, file, callback) => {
-    callback(null, 'envios');
+    callback(null, 'uploads');
   },
   filename: (req, file, callback) => {
     callback(null, Date.now() + '-' + file.originalname) + file.mimetype;
   },
 });
+
 
 app.use(
   cors({
@@ -26,25 +27,25 @@ app.use(
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Authorization'],
   }),
+  );
+  
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
+  
+  app.use(express.static(__dirname + '/uploads'));
+  
+  const upload = multer({ storage });
+
+app.post('/files/upload', upload.single('file'), (req, res) =>
+  res.status(200).json({ body: req.body, file: req.file })
 );
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(express.static(__dirname + '/envios'));
 
-// app.use(express.static(__dirname + '/uploads'));
+// const envios = multer({ storage });
 
-// const upload = multer({ dest: 'uploads' });
-
-// app.post('/files/upload', upload.single('file'), (req, res) =>
-//   res.status(200).json({ body: req.body, file: req.file })
-// );
-
-app.use(express.static(__dirname + '/envios'));
-
-const envios = multer({ storage });
-
-app.post('/envios', envios.single('envio'), (req, resp) =>
-  resp.status(200).json({ body: req.body, envio: req.file }));
+// app.post('/envios', envios.single('envio'), (req, resp) =>
+//   resp.status(200).json({ body: req.body, envio: req.file }));
 
 app.get('/ping', controllers.ping);
 
