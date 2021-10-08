@@ -199,17 +199,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 27-2: _Arquitetura de Software - IntroduÃ§Ã£o ao MVC_
 - [ ] 27-3: _[Projeto - Cookmaster]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Deployment
 
-- [ ] 28-1: _Arquitetura de Software - Camada de ServiÃ§o_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [x] 28-1: Infraestrutura - Deploy com Heroku
+- [x] 28-2: Deploy - Gerenciadores de Processos
+- [x] 28-3: [Projeto - Stanger Things](https://github.com/tryber/sd-010-b-stranger-things-frontend/tree/jonathan-souza-sd-010-b-stranger-things-frontentd)
 
-##### Bloco 29: NodeJS
+##### Bloco 29: Arquitetura: SOLID e ORM
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 29-1: Arquitetura - Princípios SOLID
+- [ ] 29-2: ORM - Interface da aplicação com o banco de dados
+- [ ] 29-3: ORM - Associations
+- [ ] 29-4: [Projeto - API de Blogs]()
 
 ##### Bloco 30: IntroduÃ§Ã£o - Deploy
 
