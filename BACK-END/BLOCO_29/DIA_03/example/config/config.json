@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "trybe",
+    "password": "123456",
+    "database": "associations_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "trybe",
+    "password": "123456",
+    "database": "associations_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "trybe",
+    "password": "123456",
+    "database": "associations_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
