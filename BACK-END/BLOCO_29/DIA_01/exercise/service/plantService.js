@@ -1,0 +1,7 @@
+s
+
+const createNewPlant = (plant) => {
+
+
+  
+}
